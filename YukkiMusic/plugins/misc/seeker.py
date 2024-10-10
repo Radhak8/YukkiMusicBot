@@ -1,9 +1,9 @@
 #
-# Copyright (C) 2021-2022 by TeamYukki@Github, < https://github.com/TeamYukki >.
+# Copyright (C) 2021-2022 by TeamRadhaX@Github, < https://github.com/TeamRadhaX >.
 #
-# This file is part of < https://github.com/TeamYukki/YukkiMusicBot > project,
+# This file is part of < https://github.com/TeamRadhaX/RadhaXMusicBot > project,
 # and is released under the "GNU v3.0 License Agreement".
-# Please see < https://github.com/TeamYukki/YukkiMusicBot/blob/master/LICENSE >
+# Please see < https://github.com/TeamRadhaX/RadhaXMusicBot/blob/master/LICENSE >
 #
 # All rights reserved.
 
@@ -12,11 +12,11 @@ import asyncio
 from pyrogram.types import InlineKeyboardMarkup
 
 from strings import get_string
-from YukkiMusic.misc import db
-from YukkiMusic.utils.database import (get_active_chats, get_lang,
+from RadhaXMusic.misc import db
+from RadhaXMusic.utils.database import (get_active_chats, get_lang,
                                        is_music_playing)
-from YukkiMusic.utils.formatters import seconds_to_min
-from YukkiMusic.utils.inline import (stream_markup_timer,
+from RadhaXMusic.utils.formatters import seconds_to_min
+from RadhaXMusic.utils.inline import (stream_markup_timer,
                                      telegram_markup_timer)
 
 from ..admins.callback import wrong

@@ -1,9 +1,9 @@
 #
-# Copyright (C) 2021-2022 by TeamYukki@Github, < https://github.com/TeamYukki >.
+# Copyright (C) 2021-2022 by TeamRadhaX@Github, < https://github.com/TeamRadhaX >.
 #
-# This file is part of < https://github.com/TeamYukki/YukkiMusicBot > project,
+# This file is part of < https://github.com/TeamRadhaX/RadhaXMusicBot > project,
 # and is released under the "GNU v3.0 License Agreement".
-# Please see < https://github.com/TeamYukki/YukkiMusicBot/blob/master/LICENSE >
+# Please see < https://github.com/TeamRadhaX/RadhaXMusicBot/blob/master/LICENSE >
 #
 # All rights reserved.
 
@@ -12,10 +12,10 @@ from pyrogram.types import Message
 
 from config import BANNED_USERS
 from strings import get_command
-from YukkiMusic import app
-from YukkiMusic.core.call import Yukki
-from YukkiMusic.utils.database import is_muted, mute_on
-from YukkiMusic.utils.decorators import AdminRightsCheck
+from RadhaXMusic import app
+from RadhaXMusic.core.call import RadhaX
+from RadhaXMusic.utils.database import is_muted, mute_on
+from RadhaXMusic.utils.decorators import AdminRightsCheck
 
 # Commands
 MUTE_COMMAND = get_command("MUTE_COMMAND")
@@ -34,7 +34,7 @@ async def mute_admin(cli, message: Message, _, chat_id):
     if await is_muted(chat_id):
         return await message.reply_text(_["admin_5"])
     await mute_on(chat_id)
-    await Yukki.mute_stream(chat_id)
+    await RadhaX.mute_stream(chat_id)
     await message.reply_text(
         _["admin_6"].format(message.from_user.mention)
     )

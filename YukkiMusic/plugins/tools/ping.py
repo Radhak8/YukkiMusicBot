@@ -1,9 +1,9 @@
 #
-# Copyright (C) 2021-2022 by TeamYukki@Github, < https://github.com/TeamYukki >.
+# Copyright (C) 2021-2022 by TeamRadhaX@Github, < https://github.com/TeamRadhaX >.
 #
-# This file is part of < https://github.com/TeamYukki/YukkiMusicBot > project,
+# This file is part of < https://github.com/TeamRadhaX/RadhaXMusicBot > project,
 # and is released under the "GNU v3.0 License Agreement".
-# Please see < https://github.com/TeamYukki/YukkiMusicBot/blob/master/LICENSE >
+# Please see < https://github.com/TeamRadhaX/RadhaXMusicBot/blob/master/LICENSE >
 #
 # All rights reserved.
 
@@ -14,10 +14,10 @@ from pyrogram.types import Message
 
 from config import BANNED_USERS, MUSIC_BOT_NAME, PING_IMG_URL
 from strings import get_command
-from YukkiMusic import app
-from YukkiMusic.core.call import Yukki
-from YukkiMusic.utils import bot_sys_stats
-from YukkiMusic.utils.decorators.language import language
+from RadhaXMusic import app
+from RadhaXMusic.core.call import RadhaX
+from RadhaXMusic.utils import bot_sys_stats
+from RadhaXMusic.utils.decorators.language import language
 
 ### Commands
 PING_COMMAND = get_command("PING_COMMAND")
@@ -36,7 +36,7 @@ async def ping_com(client, message: Message, _):
         caption=_["ping_1"],
     )
     start = datetime.now()
-    pytgping = await Yukki.ping()
+    pytgping = await RadhaX.ping()
     UP, CPU, RAM, DISK = await bot_sys_stats()
     resp = (datetime.now() - start).microseconds / 1000
     await response.edit_text(

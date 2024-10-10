@@ -1,9 +1,9 @@
 #
-# Copyright (C) 2021-2022 by TeamYukki@Github, < https://github.com/TeamYukki >.
+# Copyright (C) 2021-2022 by TeamRadhaX@Github, < https://github.com/TeamRadhaX >.
 #
-# This file is part of < https://github.com/TeamYukki/YukkiMusicBot > project,
+# This file is part of < https://github.com/TeamRadhaX/RadhaXMusicBot > project,
 # and is released under the "GNU v3.0 License Agreement".
-# Please see < https://github.com/TeamYukki/YukkiMusicBot/blob/master/LICENSE >
+# Please see < https://github.com/TeamRadhaX/RadhaXMusicBot/blob/master/LICENSE >
 #
 # All rights reserved.
 
@@ -12,7 +12,7 @@ from os import path
 
 from yt_dlp import YoutubeDL
 
-from YukkiMusic.utils.formatters import seconds_to_min
+from RadhaXMusic.utils.formatters import seconds_to_min
 
 
 class SoundAPI:

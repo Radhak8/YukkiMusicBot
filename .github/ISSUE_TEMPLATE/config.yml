@@ -1,8 +1,8 @@
 blank_issues_enabled: true
 contact_links:
-  - name: Yukki Support
-    url: https://t.me/YukkiSupport
+  - name: RadhaX Support
+    url: https://t.me/RadhaXSupport
     about: Direct chat on non-inquiries subjects.
   - name: Documentation
-    url: https://Yukki.tech/
+    url: https://RadhaX.tech/
     about: Documentation for getting started with bot.

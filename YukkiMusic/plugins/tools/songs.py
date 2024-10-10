@@ -1,9 +1,9 @@
 #
-# Copyright (C) 2021-2022 by TeamYukki@Github, < https://github.com/TeamYukki >.
+# Copyright (C) 2021-2022 by TeamRadhaX@Github, < https://github.com/TeamRadhaX >.
 #
-# This file is part of < https://github.com/TeamYukki/YukkiMusicBot > project,
+# This file is part of < https://github.com/TeamRadhaX/RadhaXMusicBot > project,
 # and is released under the "GNU v3.0 License Agreement".
-# Please see < https://github.com/TeamYukki/YukkiMusicBot/blob/master/LICENSE >
+# Please see < https://github.com/TeamRadhaX/RadhaXMusicBot/blob/master/LICENSE >
 #
 # All rights reserved.
 
@@ -20,10 +20,10 @@ from pyrogram.types import (InlineKeyboardButton,
 from config import (BANNED_USERS, SONG_DOWNLOAD_DURATION,
                     SONG_DOWNLOAD_DURATION_LIMIT)
 from strings import get_command
-from YukkiMusic import YouTube, app
-from YukkiMusic.utils.decorators.language import language, languageCB
-from YukkiMusic.utils.formatters import convert_bytes
-from YukkiMusic.utils.inline.song import song_markup
+from RadhaXMusic import YouTube, app
+from RadhaXMusic.utils.decorators.language import language, languageCB
+from RadhaXMusic.utils.formatters import convert_bytes
+from RadhaXMusic.utils.inline.song import song_markup
 
 # Command
 SONG_COMMAND = get_command("SONG_COMMAND")

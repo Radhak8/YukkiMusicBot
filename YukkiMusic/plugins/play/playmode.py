@@ -1,9 +1,9 @@
 #
-# Copyright (C) 2021-2022 by TeamYukki@Github, < https://github.com/TeamYukki >.
+# Copyright (C) 2021-2022 by TeamRadhaX@Github, < https://github.com/TeamRadhaX >.
 #
-# This file is part of < https://github.com/TeamYukki/YukkiMusicBot > project,
+# This file is part of < https://github.com/TeamRadhaX/RadhaXMusicBot > project,
 # and is released under the "GNU v3.0 License Agreement".
-# Please see < https://github.com/TeamYukki/YukkiMusicBot/blob/master/LICENSE >
+# Please see < https://github.com/TeamRadhaX/RadhaXMusicBot/blob/master/LICENSE >
 #
 # All rights reserved.
 
@@ -12,11 +12,11 @@ from pyrogram.types import InlineKeyboardMarkup, Message
 
 from config import BANNED_USERS
 from strings import get_command
-from YukkiMusic import app
-from YukkiMusic.utils.database import (get_playmode, get_playtype,
+from RadhaXMusic import app
+from RadhaXMusic.utils.database import (get_playmode, get_playtype,
                                        is_nonadmin_chat)
-from YukkiMusic.utils.decorators import language
-from YukkiMusic.utils.inline.settings import playmode_users_markup
+from RadhaXMusic.utils.decorators import language
+from RadhaXMusic.utils.inline.settings import playmode_users_markup
 
 ### Commands
 PLAYMODE_COMMAND = get_command("PLAYMODE_COMMAND")
